@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #231f20;
+  color: #fbe000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr; }
+  header .headerLogo {
+    border: ridge 1px #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; }
+    header .headerLogo span {
+      margin: 5px; }
+  header .headerNav {
+    align-self: center; }
+    header .headerNav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      header .headerNav ul li {
+        list-style-type: none; }
+
+.seccionTitulos {
+  background-color: #fbe000; }
+  .seccionTitulos .titulosByCountry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center; }
+
+.ligaEspanola {
+  padding: 20px; }
+  .ligaEspanola table {
+    border: solid #231f20 1px;
+    width: 100%; }
+    .ligaEspanola table thead th {
+      border: solid #231f20 1px; }
+    .ligaEspanola table tbody th {
+      border: solid #231f20 1px;
+      text-align: center; }
+    .ligaEspanola table tbody td {
+      border: solid #231f20 1px;
+      text-align: center; }
