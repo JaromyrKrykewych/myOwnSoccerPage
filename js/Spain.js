@@ -1,89 +1,26 @@
-class Club {
-    constructor (name, games, wins, draws, losses, goalsFor, goalsAgainst, dif, pts) {
-        this.name = name;
-        this.games = games;
-        this.wins = wins;
-        this.draws = draws;
-        this.losses = losses;
-        this.goalsFor = goalsFor;
-        this.goalsAgainst = goalsAgainst;
-        this.dif = dif;
-        this.pts = pts;
-    } 
 
-    season = (g, w, d, l, gf, ga) => {
-        this.games = this.games + g;
-        this.wins = this.wins + w;
-        this.draws = this.draws + d;
-        this.losses = this.losses + l;
-        this.goalsFor = this.goalsFor + gf;
-        this.goalsAgainst = this.goalsAgainst + ga;
-        this.dif = this.goalsFor - this.goalsAgainst;
-        this.pts = this.wins * 3 + this.draws;
-    }
-}
-
+const ala = new Club ("Deportivo Alavés", 0, 0, 0, 0, 0, 0, 0, 0)
 const ath = new Club ("Athletic Club", 0, 0, 0, 0, 0, 0, 0, 0)
 const atl = new Club ("Atlético Madrid", 0, 0, 0, 0, 0, 0, 0, 0)
 const are = new Club ("Arenas Club", 0, 0, 0, 0, 0, 0, 0, 0)
 const bar = new Club ("FC Barcelona", 0, 0, 0, 0, 0, 0, 0, 0)
+const bet = new Club ("Real Betis", 0, 0, 0, 0, 0, 0, 0, 0)
 const esp = new Club ("RCD Espanyol", 0, 0, 0, 0, 0, 0, 0, 0)
 const eur = new Club ("CE Europa", 0, 0, 0, 0, 0, 0, 0, 0)
 const rac = new Club ("Racing Santander", 0, 0, 0, 0, 0, 0, 0, 0)
 const rma = new Club ("Real Madrid CF", 0, 0, 0, 0, 0, 0, 0, 0)
 const rso = new Club ("Real Sociedad", 0, 0, 0, 0, 0, 0, 0, 0)
 const run = new Club ("Real Unión Club", 0, 0, 0, 0, 0, 0, 0, 0)
+const val = new Club ("Valencia CF", 0, 0, 0, 0, 0, 0, 0, 0)
 
-const teams = [ath, atl, are, bar, esp, eur, rac, rma, rso, run]
-
-const seasonUno = () => {
-    //FC Barcelona
-    bar.season(18, 11, 3, 4, 37, 23);
-    //Real Madrid
-    rma.season(18, 11, 1, 6, 40, 27);
-    //Athletic Club
-    ath.season(18, 8, 4, 6, 43, 33);
-    //Real Sociedad
-    rso.season(18, 8, 4, 6, 46, 41);
-    //Arenas Club
-    are.season(18, 8, 3, 7, 32, 39);
-    //Atlético Madrid
-    atl.season(18, 8, 2, 8, 43, 41);
-    //RCD Espanyol
-    esp.season(18, 7, 4, 7, 32, 38);
-    //CE Europa
-    eur.season(18, 6, 4, 8, 45, 49);
-    //Real Unión Club
-    run.season(18, 5, 2, 11, 40, 42);
-    //Racing Santander
-    rac.season(18, 3, 3, 12, 25, 50);
-}
-const seasonDos = () => {
-    //Athletic Club
-    ath.season(18, 12, 6, 0, 63, 28);
-    //FC Barcelona
-    bar.season(18, 11, 1, 6, 46, 36);
-    //Arenas Club
-    are.season(18, 9, 2, 7, 51, 40);
-    //RCD Espanyol
-    esp.season(18, 9, 2, 7, 40, 33);
-    //Real Madrid CF
-    rma.season(18, 7, 3, 8, 45, 42);
-    //Real Unión Club
-    run.season(18, 6, 5, 7, 48, 52);
-    //Real Sociedad
-    rso.season(18, 5, 4, 9, 34, 37);
-    //Racing Santander
-    rac.season(18, 7, 0, 11, 32, 58);
-    //CE Europa
-    eur.season(18, 6, 1, 11, 29, 44);
-    //Atlético Madrid
-    atl.season(18, 5, 2, 11, 32, 50);
-}
+const teams = [ala, ath, atl, are, bar, bet, esp, eur, rac, rma, rso, run, val]
 
 seasonUno()
 seasonDos()
- 
+seasonTres()
+seasonCuatro()
+seasonCinco()
+
 teams.sort( function(a, b) {
     return b.pts - a.pts;
 })
