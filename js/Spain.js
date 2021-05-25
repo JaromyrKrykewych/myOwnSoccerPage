@@ -5,21 +5,31 @@ const atl = new Club ("Atlético Madrid", 0, 0, 0, 0, 0, 0, 0, 0)
 const are = new Club ("Arenas Club", 0, 0, 0, 0, 0, 0, 0, 0)
 const bar = new Club ("FC Barcelona", 0, 0, 0, 0, 0, 0, 0, 0)
 const bet = new Club ("Real Betis", 0, 0, 0, 0, 0, 0, 0, 0)
+const cel = new Club ("RC Celta Vigo", 0, 0, 0, 0, 0, 0, 0, 0)
 const esp = new Club ("RCD Espanyol", 0, 0, 0, 0, 0, 0, 0, 0)
 const eur = new Club ("CE Europa", 0, 0, 0, 0, 0, 0, 0, 0)
+const her = new Club ("Hércules", 0, 0, 0, 0, 0, 0, 0, 0)
+const osa = new Club ("CA Osasuna", 0, 0, 0, 0, 0, 0, 0, 0)
+const ovi = new Club ("Real Oviedo", 0, 0, 0, 0, 0, 0, 0, 0)
 const rac = new Club ("Racing Santander", 0, 0, 0, 0, 0, 0, 0, 0)
 const rma = new Club ("Real Madrid CF", 0, 0, 0, 0, 0, 0, 0, 0)
 const rso = new Club ("Real Sociedad", 0, 0, 0, 0, 0, 0, 0, 0)
 const run = new Club ("Real Unión Club", 0, 0, 0, 0, 0, 0, 0, 0)
+const sev = new Club ("Sevilla FC", 0, 0, 0, 0, 0, 0, 0, 0)
 const val = new Club ("Valencia CF", 0, 0, 0, 0, 0, 0, 0, 0)
+const zar = new Club ("Real Zaragoza", 0, 0, 0, 0, 0, 0, 0, 0)
 
-const teams = [ala, ath, atl, are, bar, bet, esp, eur, rac, rma, rso, run, val]
+const teams = [ala, ath, atl, are, bar, bet, cel, esp, eur, her, osa, ovi, rac, rma, rso, run, sev, val, zar]
 
 seasonUno()
 seasonDos()
 seasonTres()
 seasonCuatro()
 seasonCinco()
+seasonSeis()
+seasonSiete()
+seasonOcho()
+seasonNueve()
 
 teams.sort( function(a, b) {
     return b.pts - a.pts;
