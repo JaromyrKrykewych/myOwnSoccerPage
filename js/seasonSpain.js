@@ -208,3 +208,29 @@ const seasonNueve = () => {
     //Racing Santander
     rac.season(22, 6, 1, 15, 37, 57);
 }
+const seasonDiez = () => {
+    //Atlético Madrid
+    atl.season(22, 13, 7, 2, 70, 36);
+    //Athletic Bilbao
+    ath.season(22, 13, 5, 4, 49, 24);
+    //Valencia CF
+    val.season(22, 11, 5, 6, 60, 52);
+    //FC Barcelona
+    bar.season(22, 13, 1, 8, 55, 45);
+    //Sevilla FC
+    sev.season(22, 12, 2, 8, 70, 43);
+    //Real Madrid CF
+    rma.season(22, 11, 2, 9, 51, 38);
+    //RCD Espanyol
+    esp.season(22, 10, 2, 10, 50, 54);
+    //Real Oviedo
+    ovi.season(22, 7, 2, 13, 36, 63);
+    //Hércules
+    her.season(22, 7, 2, 13, 28, 67);
+    //RC Celta Vigo
+    cel.season(22, 7, 1, 14, 45, 51);
+    //Real Zaragoza
+    zar.season(22, 5, 4, 13, 26, 41);
+    //Real Murcia CF
+    mur.season(22, 5, 3, 14, 29, 55);
+}

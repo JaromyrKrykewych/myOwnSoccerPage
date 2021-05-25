@@ -1,5 +1,16 @@
 class Club {
-    constructor (name, games, wins, draws, losses, goalsFor, goalsAgainst, dif, pts) {
+
+    name;
+    games;
+    wins;
+    draws;
+    losses;
+    goalsFor;
+    goalsAgainst;
+    dif;
+    pts;
+
+    constructor (name='', games=0, wins=0, draws=0, losses=0, goalsFor=0, goalsAgainst=0, dif=0, pts=0) {
         this.name = name;
         this.games = games;
         this.wins = wins;
