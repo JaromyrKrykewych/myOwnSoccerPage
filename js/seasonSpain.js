@@ -1,6 +1,7 @@
 const seasonUno = () => {
     //FC Barcelona
     bar.season(18, 11, 3, 4, 37, 23);
+    bar.winner()
     //Real Madrid
     rma.season(18, 11, 1, 6, 40, 27);
     //Athletic Club
@@ -23,6 +24,7 @@ const seasonUno = () => {
 const seasonDos = () => {
     //Athletic Club
     ath.season(18, 12, 6, 0, 63, 28);
+    ath.winner()
     //FC Barcelona
     bar.season(18, 11, 1, 6, 46, 36);
     //Arenas Club
@@ -45,6 +47,7 @@ const seasonDos = () => {
 const seasonTres = () => {
     //Athletic Club
     ath.season(18, 11, 0, 7, 73, 33);
+    ath.winner()
     //Racing Santander
     rac.season(18, 10, 2, 6, 49, 37);
     //Real Sociedad
@@ -67,6 +70,7 @@ const seasonTres = () => {
 const seasonCuatro = () => {
     //Real Madrid CF
     rma.season(18, 10, 8, 0, 37, 15);
+    rma.winner()
     //Athletic Club
     ath.season(18, 11, 3, 4, 47, 23);
     //FC Barcelona
@@ -89,6 +93,7 @@ const seasonCuatro = () => {
 const seasonCinco = () => {
     //Real Madrid
     rma.season(18, 13, 2, 3, 49, 17);
+    rma.winner()
     //Athletic Club
     ath.season(18, 13, 0, 5, 63, 30);
     //RCD Espanyol
@@ -111,6 +116,7 @@ const seasonCinco = () => {
 const seasonSeis = () => {
     //Athletic Club
     ath.season(18, 11, 2, 5, 61, 27);
+    ath.winner()
     //Real Madrid
     rma.season(18, 10, 2, 6, 41, 29);
     //Racing Santander
@@ -133,6 +139,7 @@ const seasonSeis = () => {
 const seasonSiete = () => {
     //Real Betis
     bet.season(22, 15, 4, 3, 43, 19);
+    bet.winner()
     //Real Madrid CF
     rma.season(22, 16, 1, 5, 61, 34);
     //Real Oviedo
@@ -159,6 +166,7 @@ const seasonSiete = () => {
 const seasonOcho = () => {
     //Athletic Club
     ath.season(22, 14, 3, 5, 59, 33);
+    ath.winner()
     //Real Madrid
     rma.season(22, 13, 3, 6, 62, 35);
     //Real Oviedo
@@ -185,6 +193,7 @@ const seasonOcho = () => {
 const seasonNueve = () => {
     //Atlético Madrid
     atl.season(22, 14, 1, 7, 43, 29);
+    atl.winner()
     //Sevilla FC
     sev.season(22, 11, 6, 5, 60, 44);
     //Athletic Club
@@ -211,6 +220,7 @@ const seasonNueve = () => {
 const seasonDiez = () => {
     //Atlético Madrid
     atl.season(22, 13, 7, 2, 70, 36);
+    atl.winner()
     //Athletic Bilbao
     ath.season(22, 13, 5, 4, 49, 24);
     //Valencia CF

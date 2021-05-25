@@ -44,6 +44,8 @@ teams.forEach( (e, index) => {
     let fila = document.createElement('tr')
     let pos = document.createElement('th')
     let club = document.createElement('td')
+    let seasons = document.createElement('td')
+    let titles = document.createElement('td')
     let games = document.createElement('td')
     let wins = document.createElement('td')
     let draws = document.createElement('td')
@@ -55,6 +57,8 @@ teams.forEach( (e, index) => {
 
     pos.innerText = index + 1
     club.innerText = e.name
+    seasons.innerText = e.seasons
+    titles.innerText = e.titles
     games.innerText = e.games
     wins.innerText = e.wins
     draws.innerText = e.draws
@@ -66,6 +70,8 @@ teams.forEach( (e, index) => {
 
     fila.appendChild(pos)
     fila.appendChild(club)
+    fila.appendChild(seasons)
+    fila.appendChild(titles)
     fila.appendChild(games)
     fila.appendChild(wins)
     fila.appendChild(draws)
