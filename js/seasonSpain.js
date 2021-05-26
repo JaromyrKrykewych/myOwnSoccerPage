@@ -368,3 +368,65 @@ const seasonCatorce = () => {
     //RC Deportivo
     dep.season(26, 5, 7, 14, 36, 62);
 }
+const seasonQuince = () => {
+    //Sevilla FC
+    sev.season(26, 14, 8, 4, 53, 37);
+    sev.winner();
+    //FC Barcelona
+    bar.season(26, 14, 7, 5, 48, 31);
+    //Athletic Club
+    ath.season(26, 14, 5, 7, 63, 38);
+    //Real Madrid
+    rma.season(26, 11, 9, 6, 46, 30);
+    //Real Oviedo
+    ovi.season(26, 10, 10, 6, 44, 37);
+    //Valencia CF
+    val.season(26, 9, 10, 7, 44, 36);
+    //Atlético Madrid
+    atl.season(26, 10, 6, 10, 50, 48);
+    //CD Castellón
+    cas.season(26, 11, 4, 11, 38, 54);
+    //Sporting Gijón
+    spo.season(26, 9, 7, 10, 37, 39);
+    //Celta Vigo
+    cel.season(26, 9, 3, 14, 57, 56);
+    //Real Murcia
+    mur.season(26, 5, 10, 11, 21, 39);
+    //RCD Espanyol
+    esp.season(26, 6, 7, 13, 41, 53);
+    //CD Alcoyano
+    alc.season(26, 7, 5, 14, 39, 54);
+    //Hercules
+    her.season(26, 5, 5, 16, 30, 59);
+}
+const seasonDieciseis = () => {
+    //Valencia CF
+    val.season(26, 16, 2, 8, 54, 34);
+    val.winner();
+    //Athletic Club
+    ath.season(26, 15, 4, 7, 72, 38);
+    //Atlético Madrid
+    atl.season(26, 13, 6, 7, 58, 44);
+    //FC Barcelona
+    bar.season(26, 14, 3, 9, 59, 42);
+    //CD Sabadell
+    sab.season(26, 11, 8, 7, 42, 36);
+    //Sevilla FC
+    sev.season(26, 12, 5, 9, 54, 48);
+    //Real Madrid
+    rma.season(26, 11, 5, 10, 62, 56);
+    //Real Oviedo
+    ovi.season(26, 10, 7, 9, 52, 42);
+    //Celta Vigo
+    cel.season(26, 11, 4, 11, 53, 48);
+    //Sporting Gijón
+    spo.season(26, 10, 5, 11, 51, 59);
+    //RCD Espanyol
+    esp.season(26, 9, 1, 16, 46, 59);
+    //Real Murcia
+    mur.season(26, 6, 7, 13, 30, 58);
+    //Deportivo
+    dep.season(26, 5, 8, 13, 32, 60);
+    //CD Castellón
+    cas.season(26, 4, 5, 17, 39, 80);
+}

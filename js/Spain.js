@@ -1,5 +1,6 @@
 
 const ala = new Club ("Deportivo Alavés")
+const alc = new Club ("CD Alcoyano")
 const ath = new Club ("Athletic Club")
 const atl = new Club ("Atlético Madrid")
 const are = new Club ("Arenas Club")
@@ -25,28 +26,62 @@ const spo = new Club ("Sporting Gijón")
 const val = new Club ("Valencia CF")
 const zar = new Club ("Real Zaragoza")
 
-const teams = [ala, ath, atl, are, bar, bet, cas, cel, dep, esp, eur, gra, her, mur, osa, ovi, rac, rma, rso, run, sab, sev, spo, val, zar]
+const teams = [
+    ala, alc, ath, atl, are, bar, bet, cas, cel, dep, esp, 
+    eur, gra, her, mur, osa, ovi, rac, rma, rso, run, 
+    sab, sev, spo, val, zar
+    ]
+
+const seasonsCall = () => {
+    seasonUno()
+    seasonDos()
+    seasonTres()
+    seasonCuatro()
+    seasonCinco()
+    seasonSeis()
+    seasonSiete()
+    seasonOcho()
+    seasonNueve()
+    seasonDiez()
+    seasonOnce()
+    seasonDoce()
+    seasonTrece()
+    seasonCatorce()
+    seasonQuince()
+    seasonDieciseis()
+}
+seasonsCall()
 
 
-seasonUno()
-seasonDos()
-seasonTres()
-seasonCuatro()
-seasonCinco()
-seasonSeis()
-seasonSiete()
-seasonOcho()
-seasonNueve()
-seasonDiez()
-seasonOnce()
-seasonDoce()
-seasonTrece()
-seasonCatorce()
+
+/* 
+document.getElementById('sortTitle').click( () => {
+    teams.sort( function(a, b) {
+        return b.titles - a.titles;
+    })    
+})
+
+document.getElementById('sortPts').click( () => {
+    teams.sort( function(a, b) {
+        return b.pts - a.pts;
+    })    
+})
+ */
+
 
 teams.sort( function(a, b) {
     return b.pts - a.pts;
 })
 
+/* const sortSeason = () => {
+    teams.sort( function(a, b) {
+        return b.seasons - a.seasons;
+    })    
+}
+let sortSeasonVariable = document.getElementById('sortSeason')
+
+sortSeasonVariable.addEventListener('click', sortSeason)
+ */
 let tableBody = document.getElementById('filas')
 
 teams.forEach( (e, index) => {
