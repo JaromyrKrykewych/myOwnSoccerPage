@@ -5,9 +5,12 @@ const atl = new Club ("Atlético Madrid")
 const are = new Club ("Arenas Club")
 const bar = new Club ("FC Barcelona")
 const bet = new Club ("Real Betis")
+const cas = new Club ("CD Castellón")
 const cel = new Club ("RC Celta Vigo")
+const dep = new Club ("RC Deportivo La Coruña")
 const esp = new Club ("RCD Espanyol")
 const eur = new Club ("CE Europa")
+const gra = new Club ("Granada CF")
 const her = new Club ("Hércules")
 const mur = new Club ("Real Murcia CF")
 const osa = new Club ("CA Osasuna")
@@ -16,11 +19,13 @@ const rac = new Club ("Racing Santander")
 const rma = new Club ("Real Madrid CF")
 const rso = new Club ("Real Sociedad")
 const run = new Club ("Real Unión Club")
+const sab = new Club ("CE Sabadell")
 const sev = new Club ("Sevilla FC")
+const spo = new Club ("Sporting Gijón")
 const val = new Club ("Valencia CF")
 const zar = new Club ("Real Zaragoza")
 
-const teams = [ala, ath, atl, are, bar, bet, cel, esp, eur, her, mur, osa, ovi, rac, rma, rso, run, sev, val, zar]
+const teams = [ala, ath, atl, are, bar, bet, cas, cel, dep, esp, eur, gra, her, mur, osa, ovi, rac, rma, rso, run, sab, sev, spo, val, zar]
 
 
 seasonUno()
@@ -33,6 +38,10 @@ seasonSiete()
 seasonOcho()
 seasonNueve()
 seasonDiez()
+seasonOnce()
+seasonDoce()
+seasonTrece()
+seasonCatorce()
 
 teams.sort( function(a, b) {
     return b.pts - a.pts;
