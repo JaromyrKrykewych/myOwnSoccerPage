@@ -34,11 +34,24 @@ header {
     align-items: center; }
 
 .ligaEspanola {
-  padding: 20px; }
+  padding: 20px;
+  margin: 15px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 70% 30%;
+  grid-gap: 20px; }
+  .ligaEspanola h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 50px;
+    text-align: center; }
   .ligaEspanola table {
+    box-shadow: 1px 1px 3px;
+    background-color: #231f20;
     border: solid #231f20 1px;
     width: 100%; }
     .ligaEspanola table thead th {
+      background-color: grey;
       border: solid #231f20 1px; }
     .ligaEspanola table tbody th {
       border: solid #231f20 1px;
@@ -46,3 +59,63 @@ header {
     .ligaEspanola table tbody td {
       border: solid #231f20 1px;
       text-align: center; }
+  .ligaEspanola .glosario {
+    padding: 15px;
+    box-shadow: 2px 2px 6px;
+    text-align: center; }
+    .ligaEspanola .glosario hr {
+      margin: 10px; }
+    .ligaEspanola .glosario .glosario-significados {
+      margin: 10px;
+      display: grid;
+      grid-template-rows: repeat(11, 1fr);
+      grid-row-gap: 4px; }
+      .ligaEspanola .glosario .glosario-significados div {
+        display: grid;
+        margin-left: 22%;
+        grid-template-columns: 30% 70%; }
+        .ligaEspanola .glosario .glosario-significados div .descripcion {
+          text-align: left; }
+    .ligaEspanola .glosario .glosario-explicacion {
+      margin: 10px;
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-row-gap: 4px;
+      margin-left: 12%; }
+      .ligaEspanola .glosario .glosario-explicacion div {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin-left: 5px; }
+        .ligaEspanola .glosario .glosario-explicacion div .bloqueUno {
+          width: 18px;
+          height: 15px;
+          background-color: #fbe000; }
+        .ligaEspanola .glosario .glosario-explicacion div .bloqueDos {
+          width: 18px;
+          height: 15px;
+          background-color: grey; }
+    .ligaEspanola .glosario .laLigaIcon {
+      padding: 10px; }
+      .ligaEspanola .glosario .laLigaIcon img {
+        height: 80%;
+        width: 80%; }
+
+@media screen and (max-width: 992px) {
+  .ligaEspanola {
+    display: grid;
+    grid-template-rows: 60px 1fr auto;
+    grid-template-columns: 1fr; }
+    .ligaEspanola h1 {
+      grid-column-start: 1;
+      grid-column-end: 2; }
+    .ligaEspanola .glosario .glosario-significados {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 15px; }
+    .ligaEspanola .glosario .glosario-explicacion {
+      justify-content: center; }
+    .ligaEspanola .glosario .laLigaIcon img {
+      width: 450px;
+      height: 400px; } }

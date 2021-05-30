@@ -1,3 +1,8 @@
+/**
+ * Las temporadas las trabajo por separado y no con alguna clase porque cada una
+ * es distinta y a su vez luego quiero aplicar varios eventos sacandoles información
+ */
+
 const seasonUno = () => {
     //FC Barcelona
     bar.season(18, 11, 3, 4, 37, 23);
@@ -782,7 +787,4 @@ const seasonVeintitres = () => {
     her.ascenso();
     ala.ascenso();
     lpa.ascenso();
-}
-const seasonVeinticuatro = () => {
-    
 }

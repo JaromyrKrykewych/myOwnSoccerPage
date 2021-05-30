@@ -39,7 +39,10 @@ const teams = [
     rva, sab, sev, spo, tet, val, uel, zar
     ]
 
-/*Estas funciones irán en un archivo js propio*/    
+/*Estas funciones irán en un archivo js propio, acá están para facilitar mientras agrego los datos*/
+/*La idea es comenzar a exportar e importar las funciones, 
+pero creo que debo buscar un nombre más genérico para estas funciones 
+o importarlas directamente desde seasonSpain.js */    
 const seasonsOneToTwenty = () => {
     seasonUno()
     seasonDos()
@@ -74,12 +77,17 @@ seasonsTwentyOneToForty()
 
 
 //Creación Tablas
+
 teams.sort( function(a, b) {
     return b.pts - a.pts;
 })
 
 let tableBody = document.getElementById('filas')
 
+/**
+ * Esta función también la podría llevar a otro archivo js ya que la 
+ * he modificado bastante
+ */
 const createTable = () => {
     
     teams.forEach( (e, index) => {
@@ -127,7 +135,10 @@ const createTable = () => {
 
         if (e.laLiga === true) {
             fila.style.backgroundColor = '#fbe000';
-            pos.style.backgroundColor = 'white';
+            pos.style.backgroundColor = 'grey';
+        } else if (!e.laLiga) {
+            fila.style.backgroundColor = 'grey';
+            pos.style.backgroundColor = 'grey';
         }
     })
 

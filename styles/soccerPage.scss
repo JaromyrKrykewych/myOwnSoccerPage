@@ -1,7 +1,6 @@
 $color1 : #fbe000;
 $color2: #231f20;
 
-
 * {
     margin: 0;
     padding: 0;
@@ -47,11 +46,25 @@ header {
 }
 .ligaEspanola {
     padding: 20px;
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 70% 30%;
+    grid-gap: 20px;
+        h1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-size: 50px;
+            text-align: center;
+        }
         table {
+            box-shadow: 1px 1px 3px;
+            background-color: #231f20;
             border: solid #231f20 1px;
             width: 100%;
             thead {
                 th {
+                    background-color: grey;
                     border: solid #231f20 1px;
                 }
             }
@@ -66,4 +79,85 @@ header {
                 }
             }
         }
+        .glosario {
+            padding: 15px;
+            box-shadow: 2px 2px 6px;
+            text-align: center;
+                hr {
+                    margin: 10px;
+                }
+                .glosario-significados {
+                    margin: 10px;
+                    display: grid;
+                    grid-template-rows: repeat(11, 1fr);
+                    grid-row-gap: 4px;
+                        div {
+                            display: grid;
+                            margin-left: 22%;
+                            grid-template-columns: 30% 70%;
+                                .descripcion {
+                                    text-align: left;
+                                }
+                        }
+                }
+                .glosario-explicacion {
+                    margin: 10px;
+                    display: grid;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-row-gap: 4px;
+                    margin-left: 12%;
+                        div {
+                            display: flex;
+                            flex-direction: row;
+                            padding: 5px;
+                            margin-left: 5px;
+                                .bloqueUno {
+                                    width: 18px;
+                                    height: 15px;
+                                    background-color: #fbe000;
+                                }
+                                .bloqueDos {
+                                    width: 18px;
+                                    height: 15px;
+                                    background-color: grey;
+                                }
+                        }
+                }
+                .laLigaIcon {
+                    padding: 10px;
+                        img {
+                            height: 80%;
+                            width: 80%;
+                        }
+                }
+        }
+}
+
+@media screen and (max-width: 992px){
+    .ligaEspanola {
+        display: grid;
+        grid-template-rows: 60px 1fr auto;
+        grid-template-columns: 1fr;
+            h1 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .glosario {
+                .glosario-significados {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
+                    grid-gap: 15px;
+                }
+                .glosario-explicacion {
+                    justify-content: center;
+                }
+                .laLigaIcon {
+                    img {
+                        width: 450px;
+                        height: 400px;
+                    }                   
+                }
+            }       
+    }
 }
