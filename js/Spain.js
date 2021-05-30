@@ -7,12 +7,15 @@ const are = new Club ("Arenas Club")
 const bar = new Club ("FC Barcelona")
 const bet = new Club ("Real Betis")
 const cas = new Club ("CD Castellón")
+const cdm = new Club ("CD Málaga")
 const cel = new Club ("RC Celta Vigo")
 const dep = new Club ("RC Deportivo La Coruña")
 const esp = new Club ("RCD Espanyol")
 const eur = new Club ("CE Europa")
+const gim = new Club ("Gimnastic de Tarragona")
 const gra = new Club ("Granada CF")
 const her = new Club ("Hércules")
+const lpa = new Club ("UD Las Palmas")
 const mur = new Club ("Real Murcia CF")
 const osa = new Club ("CA Osasuna")
 const ovi = new Club ("Real Oviedo")
@@ -20,19 +23,23 @@ const rac = new Club ("Racing Santander")
 const rma = new Club ("Real Madrid CF")
 const rso = new Club ("Real Sociedad")
 const run = new Club ("Real Unión Club")
+const rva = new Club ("Real Valladolid")
 const sab = new Club ("CE Sabadell")
 const sev = new Club ("Sevilla FC")
 const spo = new Club ("Sporting Gijón")
+const tet = new Club ("CA Tetuán")
 const val = new Club ("Valencia CF")
+const uel = new Club ("UE Lleida")
 const zar = new Club ("Real Zaragoza")
 
 const teams = [
-    ala, alc, ath, atl, are, bar, bet, cas, cel, dep, esp, 
-    eur, gra, her, mur, osa, ovi, rac, rma, rso, run, 
-    sab, sev, spo, val, zar
+    ala, alc, ath, atl, are, bar, bet, cas, cdm, cel, dep, esp, 
+    eur, gim, gra, her, lpa, mur, osa, ovi, rac, rma, rso, run, 
+    rva, sab, sev, spo, tet, val, uel, zar
     ]
 
-const seasonsCall = () => {
+/*Estas funciones irán en un archivo js propio*/    
+const seasonsOneToTwenty = () => {
     seasonUno()
     seasonDos()
     seasonTres()
@@ -49,8 +56,19 @@ const seasonsCall = () => {
     seasonCatorce()
     seasonQuince()
     seasonDieciseis()
+    seasonDiecisiete()
+    seasonDieciocho()
+    seasonDiecinueve()
+    seasonVeinte()
 }
-seasonsCall()
+const seasonsTwentyOneToFourty = () => {
+    seasonVeintiuno()
+    seasonVeintidos()
+}
+
+//Las declaraciones quedan acá
+seasonsOneToTwenty()
+seasonsTwentyOneToFourty()
 
 
 
