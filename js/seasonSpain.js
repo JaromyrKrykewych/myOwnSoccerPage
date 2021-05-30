@@ -43,6 +43,11 @@ const seasonDos = () => {
     eur.season(18, 6, 1, 11, 29, 44);
     //Atlético Madrid
     atl.season(18, 5, 2, 11, 32, 50);
+    //Descenso
+    atl.descenso()
+    //Ascenso
+    ala.ascenso()
+
 }
 const seasonTres = () => {
     //Athletic Club
@@ -66,6 +71,10 @@ const seasonTres = () => {
     esp.season(18, 6, 2, 10, 32, 45);
     //CE Europa
     eur.season(18, 6, 1, 11, 23, 38);
+    //Descenso
+    eur.descenso()
+    //Ascenso
+    val.ascenso()
 }
 const seasonCuatro = () => {
     //Real Madrid CF
@@ -89,6 +98,10 @@ const seasonCuatro = () => {
     ala.season(18, 5, 1, 12, 22, 44);
     //Real Unión Club
     run.season(18, 4, 3, 11, 24, 45);
+    //Descenso
+    run.descenso();
+    //Ascenso
+    bet.ascenso();
 }
 const seasonCinco = () => {
     //Real Madrid
@@ -112,6 +125,9 @@ const seasonCinco = () => {
     val.season(18, 4, 5, 9, 34, 53);
     //Deportivo Alavés
     ala.season(18, 5, 2, 11, 21, 42);
+    //Ascenso y Descenso
+    ala.descenso();
+    ovi.ascenso();
 }
 const seasonSeis = () => {
     //Athletic Club
@@ -135,6 +151,9 @@ const seasonSeis = () => {
     bar.season(18, 8, 0, 10, 42, 40);
     //Arenas Club
     are.season(18, 3, 4, 11, 18, 49);
+    //Ascenso y Descenso
+    sev.ascenso();
+    atl.ascenso();
 }
 const seasonSiete = () => {
     //Real Betis
@@ -162,6 +181,11 @@ const seasonSiete = () => {
     rso.season(22, 5, 1, 16, 28, 67);
     //Arenas Club
     are.season(22, 3, 3, 16, 17, 56);
+    //Ascenso y Descenso
+    her.ascenso();
+    osa.ascenso();
+    rso.descenso();
+    are.descenso();
 }
 const seasonOcho = () => {
     //Athletic Club
@@ -189,6 +213,11 @@ const seasonOcho = () => {
     atl.season(22, 6, 3, 13, 34, 50);
     //CA Osasuna
     osa.season(22, 7, 0, 15, 46, 55);
+    //Ascenso y Descenso
+    cel.ascenso();
+    zar.ascenso();
+    osa.descenso();
+    ovi.descenso();
 }
 const seasonNueve = () => {
     //Atlético Madrid
@@ -216,6 +245,11 @@ const seasonNueve = () => {
     bet.season(22, 6, 4, 12, 26, 51);
     //Racing Santander
     rac.season(22, 6, 1, 15, 37, 57);
+    //Ascenso y Descenso
+    mur.ascenso();
+    ovi.ascenso();
+    bet.descenso();
+    rac.descenso();
 }
 const seasonDiez = () => {
     //Atlético Madrid
@@ -243,6 +277,13 @@ const seasonDiez = () => {
     zar.season(22, 5, 4, 13, 26, 41);
     //Real Murcia CF
     mur.season(22, 5, 3, 14, 29, 55);
+    //Ascenso y Descenso
+    gra.ascenso();
+    rso.ascenso();
+    dep.ascenso();
+    cas.ascenso();
+    zar.descenso();
+    mur.descenso();
 }
 const seasonOnce = () => {
     //Valencia CF
@@ -274,6 +315,11 @@ const seasonOnce = () => {
     her.season(26, 6, 5, 15, 42, 71);
     //Real Sociedad
     rso.season(26, 5, 2, 19, 31, 77);
+    //Ascenso y Descenso
+    zar.ascenso();
+    bet.ascenso();
+    her.descenso();
+    rso.descenso();
 }
 const seasonDoce = () => {
     //Athletic Club
@@ -305,6 +351,11 @@ const seasonDoce = () => {
     zar.season(26, 2, 9, 15, 25, 57);
     //Real Betis
     bet.season(26, 2, 6, 18, 28, 74);
+    //Ascenso y Descenso
+    sab.ascenso();
+    rso.ascenso();
+    zar.descenso();
+    bet.descenso();
 }
 const seasonTrece = () => {
     //Valencia CF
@@ -336,6 +387,11 @@ const seasonTrece = () => {
     rso.season(26, 5, 7, 14, 34, 54);
     //RC Celta
     cel.season(26, 2, 5, 19, 27, 37);
+    //Ascenso y Descenso
+    rso.descenso();
+    cel.descenso();
+    spo.ascenso();
+    mur.ascenso();
 }
 const seasonCatorce = () => {
     //FC Barcelona
@@ -367,6 +423,13 @@ const seasonCatorce = () => {
     sab.season(26, 6, 5, 15, 30, 67);
     //RC Deportivo
     dep.season(26, 5, 7, 14, 36, 62);
+    //Ascenso y Descenso
+    sab.descenso();
+    dep.descenso();
+    gra.descenso();
+    alc.ascenso();
+    her.ascenso();
+    cel.ascenso();
 }
 const seasonQuince = () => {
     //Sevilla FC
@@ -398,6 +461,11 @@ const seasonQuince = () => {
     alc.season(26, 7, 5, 14, 39, 54);
     //Hercules
     her.season(26, 5, 5, 16, 30, 59);
+    //Ascenso y descenso
+    alc.descenso();
+    her.descenso();
+    sab.ascenso();
+    dep.ascenso();
 }
 const seasonDieciseis = () => {
     //Valencia CF
@@ -429,6 +497,13 @@ const seasonDieciseis = () => {
     dep.season(26, 5, 8, 13, 32, 60);
     //CD Castellón
     cas.season(26, 4, 5, 17, 39, 80);
+    //Ascenso y Descenso
+    dep.descenso();
+    cas.descenso();
+    mur.descenso();
+    alc.ascenso();
+    gim.ascenso();
+    rso.ascenso();
 }
 const seasonDiecisiete = () => {
     //FC Barcelona
@@ -460,6 +535,11 @@ const seasonDiecisiete = () => {
     rso.season(26, 8, 3, 15, 38, 60);
     //Sporting Gijón
     spo.season(26, 7, 4, 15, 37, 69);
+    //Ascenso y Descenso
+    rso.descenso();
+    spo.descenso();
+    rva.ascenso();
+    dep.ascenso();
 }
 const seasonDieciocho = () => {
     //FC Barcelona
@@ -491,6 +571,11 @@ const seasonDieciocho = () => {
     alc.season(26, 8, 5, 13, 30, 54);
     //CD Sabadell
     sab.season(26, 5, 3, 18, 43, 81);
+    //Ascenso y Descenso
+    alc.descenso();
+    sab.descenso();
+    rso.ascenso();
+    cdm.ascenso();
 }
 const seasonDiecinueve = () => {
     //Atlético Madrid
@@ -522,6 +607,13 @@ const seasonDiecinueve = () => {
     gim.season(26, 7, 2, 17, 39, 99);
     //Real Oviedo
     ovi.season(26, 4, 7, 15, 30, 65);
+    //Ascensos y Descensos
+    gim.descenso();
+    ovi.descenso();
+    rac.ascenso();
+    uel.ascenso();
+    mur.ascenso();
+    alc.ascenso();
 }
 const seasonVeinte = () => {
     //Atlético Madrid
@@ -557,6 +649,15 @@ const seasonVeinte = () => {
     alc.season(30, 6, 2, 22, 36, 92);
     //UE Lleida
     uel.season(30, 6, 1, 23, 41, 134);
+    //Ascenso y Descenso
+    alc.descenso();
+    uel.descenso();
+    cdm.descenso();
+    mur.descenso();
+    spo.ascenso();
+    tet.ascenso();
+    lpa.ascenso();
+    zar.ascenso();
 }
 const seasonVeintiuno = () => {
     //FC Barcelona
@@ -592,6 +693,11 @@ const seasonVeintiuno = () => {
     lpa.season(30, 9, 4, 17, 36, 85);
     //Atlético Tetuán
     tet.season(30, 7, 5, 18, 51, 85);
+    //Ascenso y descenso
+    lpa.descenso();
+    tet.descenso();
+    ovi.ascenso();
+    cdm.ascenso();
 }
 const seasonVeintidos = () => {
     //FC Barcelona
@@ -627,6 +733,11 @@ const seasonVeintidos = () => {
     cdm.season(30, 10, 2, 18, 47, 69);
     //Real Zaragoza
     zar.season(30, 6, 5, 19, 38, 74);
+    //Ascenso y descenso
+    cdm.descenso();
+    zar.descenso();
+    osa.ascenso();
+    jae.ascenso();
 }
 const seasonVeintitres = () => {
     //Real Madrid
@@ -662,4 +773,16 @@ const seasonVeintitres = () => {
     ovi.season(30, 8, 6, 16, 31, 53);
     //Sporting Gijón
     spo.season(30, 7, 2, 21, 44, 81);
+    //Ascenso y Descenso
+    ovi.descenso();
+    spo.descenso();
+    osa.descenso();
+    jae.descenso();
+    cdm.ascenso();
+    her.ascenso();
+    ala.ascenso();
+    lpa.ascenso();
+}
+const seasonVeinticuatro = () => {
+    
 }

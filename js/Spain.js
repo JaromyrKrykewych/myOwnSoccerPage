@@ -124,6 +124,11 @@ const createTable = () => {
         fila.appendChild(pts)
     
         tableBody.appendChild(fila)
+
+        if (e.laLiga === true) {
+            fila.style.backgroundColor = '#fbe000';
+            pos.style.backgroundColor = 'white';
+        }
     })
 
     

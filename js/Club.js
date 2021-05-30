@@ -1,6 +1,7 @@
 class Club {
 
     name;
+    laLiga;
     seasons;
     titles;
     games;
@@ -12,8 +13,9 @@ class Club {
     dif;
     pts;
 
-    constructor (name='', seasons=0, titles=0, games=0, wins=0, draws=0, losses=0, goalsFor=0, goalsAgainst=0, dif=0, pts=0) {
+    constructor (name='', laLiga=true, seasons=0, titles=0, games=0, wins=0, draws=0, losses=0, goalsFor=0, goalsAgainst=0, dif=0, pts=0) {
         this.name = name;
+        this.laLiga = laLiga;
         this.seasons = seasons;
         this.titles = titles;
         this.games = games;
@@ -40,5 +42,13 @@ class Club {
 
     winner = () => {
         this.titles = this.titles + 1
+    }
+
+    ascenso = () => {
+        this.laLiga = true
+    }
+
+    descenso = () => {
+        this.laLiga = false
     }
 }
