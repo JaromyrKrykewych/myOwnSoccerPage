@@ -628,3 +628,38 @@ const seasonVeintidos = () => {
     //Real Zaragoza
     zar.season(30, 6, 5, 19, 38, 74);
 }
+const seasonVeintitres = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 17, 6, 7, 72, 41);
+    //FC Barcelona
+    bar.season(30, 16, 4, 10, 74, 39);
+    //Valencia
+    val.season(30, 14, 6, 10, 69, 51);
+    //Espanyol
+    esp.season(30, 14, 6, 10, 50, 36);
+    //Sevilla
+    sev.season(30, 15, 2, 13, 57, 49);
+    //Athletic
+    ath.season(30, 12, 8, 10, 54, 44);
+    //Deportivo
+    dep.season(30, 13, 5, 12, 41, 46);
+    //Racing Santander
+    rac.season(30, 12, 7, 11, 53, 61);
+    //Atlético Madrid
+    atl.season(30, 11, 7, 12, 57, 47);
+    //Celta Vigo
+    cel.season(30, 12, 5, 13, 47, 54);
+    //Real Valladolid
+    rva.season(30, 12, 5, 13, 50, 60);
+    //Real Sociedad
+    rso.season(30, 11, 7, 12, 44, 58);
+    //Osasuna
+    osa.season(30, 12, 4, 14, 46, 54);
+    //Real Jaén
+    jae.season(30, 11, 6, 13, 55, 70);
+    //Real Oviedo
+    ovi.season(30, 8, 6, 16, 31, 53);
+    //Sporting Gijón
+    spo.season(30, 7, 2, 21, 44, 81);
+}
