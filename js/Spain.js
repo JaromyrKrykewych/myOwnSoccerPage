@@ -9,6 +9,8 @@ const bet = new Club ("Real Betis")
 const cas = new Club ("CD Castellón")
 const cdm = new Club ("CD Málaga")
 const cel = new Club ("RC Celta Vigo")
+const con = new Club ("CD Condal")
+const cul = new Club ("Cultural Leonesa")
 const dep = new Club ("RC Deportivo La Coruña")
 const esp = new Club ("RCD Espanyol")
 const eur = new Club ("CE Europa")
@@ -34,7 +36,7 @@ const uel = new Club ("UE Lleida")
 const zar = new Club ("Real Zaragoza")
 
 const teams = [
-    ala, alc, ath, atl, are, bar, bet, cas, cdm, cel, dep, esp, 
+    ala, alc, ath, atl, are, bar, bet, cas, cdm, cel, con, cul, dep, esp, 
     eur, gim, gra, her, jae, lpa, mur, osa, ovi, rac, rma, rso, run, 
     rva, sab, sev, spo, tet, val, uel, zar
     ]
@@ -69,6 +71,9 @@ const seasonsTwentyOneToForty = () => {
     seasonVeintiuno()
     seasonVeintidos()
     seasonVeintitres()
+    seasonVeinticuatro()
+    seasonVeinticinco()
+    seasonVeintiseis()
 }
 
 //Las declaraciones quedan acá
@@ -135,10 +140,10 @@ const createTable = () => {
 
         if (e.laLiga === true) {
             fila.style.backgroundColor = '#fbe000';
-            pos.style.backgroundColor = 'grey';
+            pos.style.backgroundColor = 'rgb(209, 205, 205)';
         } else if (!e.laLiga) {
-            fila.style.backgroundColor = 'grey';
-            pos.style.backgroundColor = 'grey';
+            fila.style.backgroundColor = 'rgb(209, 205, 205)';
+            pos.style.backgroundColor = 'rgb(209, 205, 205)';
         }
     })
 

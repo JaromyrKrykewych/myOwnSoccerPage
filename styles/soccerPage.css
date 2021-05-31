@@ -51,7 +51,7 @@ header {
     border: solid #231f20 1px;
     width: 100%; }
     .ligaEspanola table thead th {
-      background-color: grey;
+      background-color: #d1cdcd;
       border: solid #231f20 1px; }
     .ligaEspanola table tbody th {
       border: solid #231f20 1px;
@@ -94,7 +94,7 @@ header {
         .ligaEspanola .glosario .glosario-explicacion div .bloqueDos {
           width: 18px;
           height: 15px;
-          background-color: grey; }
+          background-color: #d1cdcd; }
     .ligaEspanola .glosario .laLigaIcon {
       padding: 10px; }
       .ligaEspanola .glosario .laLigaIcon img {
