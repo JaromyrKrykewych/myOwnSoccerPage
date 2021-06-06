@@ -10,6 +10,7 @@ const cas = new Club ("CD Castellón")
 const cdm = new Club ("CD Málaga")
 const cel = new Club ("RC Celta Vigo")
 const con = new Club ("CD Condal")
+const cor = new Club ("Córdoba CF")
 const cul = new Club ("Cultural Leonesa")
 const dep = new Club ("RC Deportivo La Coruña")
 const elc = new Club ("Elche CF")
@@ -19,10 +20,13 @@ const gim = new Club ("Gimnastic de Tarragona")
 const gra = new Club ("Granada CF")
 const her = new Club ("Hércules")
 const jae = new Club ("Real Jaén")
+const lev = new Club ("Levante UD")
 const lpa = new Club ("UD Las Palmas")
+const mal = new Club ("RCD Mallorca")
 const mur = new Club ("Real Murcia CF")
 const osa = new Club ("CA Osasuna")
 const ovi = new Club ("Real Oviedo")
+const pon = new Club ("Pontevedra CF")
 const rac = new Club ("Racing Santander")
 const rma = new Club ("Real Madrid CF")
 const rso = new Club ("Real Sociedad")
@@ -31,6 +35,7 @@ const rva = new Club ("Real Valladolid")
 const sab = new Club ("CE Sabadell")
 const sev = new Club ("Sevilla FC")
 const spo = new Club ("Sporting Gijón")
+const ten = new Club ("CD Tenerife")
 const tet = new Club ("CA Tetuán")
 const val = new Club ("Valencia CF")
 const uel = new Club ("UE Lleida")
@@ -72,6 +77,10 @@ const seasonsTwentyOneToForty = () => {
     seasonVeintiseis()
     seasonVeintisiete()
     seasonVeintiocho()
+    seasonVeintinueve()
+    seasonTreinta()
+    seasonTreintayUno()
+    seasonTreintayDos()
 }
 
 //Las declaraciones quedan acá
@@ -82,7 +91,14 @@ seasonsTwentyOneToForty()
 //Creación Tablas
 
 teams.sort( function(a, b) {
-    return b.pts - a.pts;
+    if (a.pts != b.pts){
+        return b.pts - a.pts;
+    } else if (a.pts === b.pts) {
+        return b.dif - a.dif
+    } else if (a.pts === b.pts && a.dif === b.dif) {
+        return b.goalsFor - a.goalsFor
+    }
+    
 })
 
 let tableBody = document.getElementById('filas')
