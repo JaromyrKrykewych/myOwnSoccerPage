@@ -913,3 +913,83 @@ const seasonVeintiseis = () => {
     spo.ascenso();
     gra.ascenso();
 }
+const seasonVeintisiete = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 20, 5, 5, 71, 26);
+    //Atlético Madrid
+    atl.season(30, 16, 10, 4, 78, 43);
+    //FC Barcelona
+    bar.season(30, 17, 4, 9, 69, 38);
+    //Valencia
+    val.season(30, 13, 10, 7, 56, 40);
+    //Osasuna
+    osa.season(30, 15, 5, 10, 53, 43);
+    //Athletic Bilbao
+    ath.season(30, 14, 4, 12, 56, 48);
+    //Celta Vigo
+    cel.season(30, 13, 6, 11, 50, 51);
+    //Espanyol
+    esp.season(30, 11, 6, 13, 48, 46);
+    //Real Sociedad
+    rso.season(30, 10, 7, 13, 38, 44);
+    //Sevilla
+    sev.season(30, 9, 7, 14, 45, 55);
+    //Las Palmas
+    lpa.season(30, 9, 7, 14, 34, 65);
+    //Sporting Gijón
+    spo.season(30, 10, 4, 16, 46, 57);
+    //Granada
+    gra.season(30, 11, 2, 17, 35, 53);
+    //Real Zaragoza
+    zar.season(30, 8, 8, 14, 39, 52);
+    //Valladolid
+    rva.season(30, 9, 5, 16, 45, 73);
+    //Real Jaén
+    jae.season(30, 9, 2, 19, 29, 58);
+    //Ascensos y Descensos
+    rva.descenso();
+    jae.descenso();
+    ovi.ascenso();
+    bet.ascenso();
+}
+const seasonVeintiocho = () => {
+    //Barcelona
+    bar.winner();
+    bar.season(30, 24, 3, 3, 96, 26);
+    //Real Madrid
+    rma.season(30, 21, 5, 4, 89, 29);
+    //Athletic
+    ath.season(30, 17, 2, 11, 72, 33);
+    //Valencia
+    val.season(30, 13, 7, 10, 47, 41);
+    //Atlético Madrid
+    atl.season(30, 13, 6, 11, 58, 48);
+    //Real Betis
+    bet.season(30, 14, 4, 12, 54, 53);
+    //Espanyol
+    esp.season(30, 11, 7, 12, 42, 45);
+    //Osasuna
+    osa.season(30, 12, 4, 14, 44, 59);
+    //Real Zaragoza
+    zar.season(30, 12, 4, 14, 47, 60);
+    //Real Sociedad
+    rso.season(30, 9, 10, 11, 32, 33);
+    //Real Oviedo
+    ovi.season(30, 11, 5, 14, 31, 49);
+    //Sevilla
+    sev.season(30, 12, 2, 16, 44, 58);
+    //Granada
+    gra.season(30, 11, 4, 15, 30, 43);
+    //Las Palmas
+    lpa.season(30, 10, 4, 16, 43, 69);
+    //Sporting Gijon
+    spo.season(30, 7, 6, 17, 25, 70);
+    //Celta Vigo
+    cel.season(30, 4, 5, 21, 21, 59);
+    //Ascenso y Descenso
+    spo.descenso();
+    cel.descenso();
+    rva.ascenso();
+    elc.ascenso();
+}

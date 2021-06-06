@@ -12,6 +12,7 @@ const cel = new Club ("RC Celta Vigo")
 const con = new Club ("CD Condal")
 const cul = new Club ("Cultural Leonesa")
 const dep = new Club ("RC Deportivo La Coruña")
+const elc = new Club ("Elche CF")
 const esp = new Club ("RCD Espanyol")
 const eur = new Club ("CE Europa")
 const gim = new Club ("Gimnastic de Tarragona")
@@ -35,12 +36,7 @@ const val = new Club ("Valencia CF")
 const uel = new Club ("UE Lleida")
 const zar = new Club ("Real Zaragoza")
 
-const teams = [
-    ala, alc, ath, atl, are, bar, bet, cas, cdm, cel, con, cul, dep, esp, 
-    eur, gim, gra, her, jae, lpa, mur, osa, ovi, rac, rma, rso, run, 
-    rva, sab, sev, spo, tet, val, uel, zar
-    ]
-
+ 
 /*Estas funciones irán en un archivo js propio, acá están para facilitar mientras agrego los datos*/
 /*La idea es comenzar a exportar e importar las funciones, 
 pero creo que debo buscar un nombre más genérico para estas funciones 
@@ -74,6 +70,8 @@ const seasonsTwentyOneToForty = () => {
     seasonVeinticuatro()
     seasonVeinticinco()
     seasonVeintiseis()
+    seasonVeintisiete()
+    seasonVeintiocho()
 }
 
 //Las declaraciones quedan acá

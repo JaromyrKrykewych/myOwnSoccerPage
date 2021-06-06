@@ -1,3 +1,5 @@
+const teams = [];
+
 class Club {
 
     name;
@@ -26,6 +28,8 @@ class Club {
         this.goalsAgainst = goalsAgainst;
         this.dif = dif;
         this.pts = pts;
+        
+        teams.push(this)
     } 
 
     season = (g, w, d, l, gf, ga) => {
@@ -52,3 +56,5 @@ class Club {
         this.laLiga = false
     }
 }
+
+
