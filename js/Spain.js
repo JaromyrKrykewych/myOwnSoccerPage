@@ -28,6 +28,7 @@ const osa = new Club ("CA Osasuna")
 const ovi = new Club ("Real Oviedo")
 const pon = new Club ("Pontevedra CF")
 const rac = new Club ("Racing Santander")
+const rbu = new Club ("Real Burgos CF")
 const rma = new Club ("Real Madrid CF")
 const rso = new Club ("Real Sociedad")
 const run = new Club ("Real Unión Club")
@@ -81,11 +82,23 @@ const seasonsTwentyOneToForty = () => {
     seasonTreinta()
     seasonTreintayUno()
     seasonTreintayDos()
+    seasonTreintayTres()
+    seasonTreintayCuatro()
+    seasonTreintayCinco()
+    seasonTreintaySeis()
+    seasonTreintaySiete()
+    seasonTreintayOcho()
+    seasonTreintayNueve()
+    seasonCuarenta()
+}
+const seasonsFortyOneToSixty = () => {
+    seasonCuarentayUno()
 }
 
 //Las declaraciones quedan acá
 seasonsOneToTwenty()
 seasonsTwentyOneToForty()
+seasonsFortyOneToSixty()
 
 
 //Creación Tablas
@@ -194,3 +207,16 @@ iconPts.onclick = function() {
     createTable()    
 }
 
+const verificarTabla = () => {
+    let sumaWins = 0;
+    let sumaLosses = 0;
+    let sumaDif = 0;
+    teams.forEach( (team) => {
+        sumaWins += team.wins;
+        sumaLosses += team.losses;
+        sumaDif += team.dif;
+        console.log(`${sumaWins}/${sumaLosses}/${sumaDif}`)
+    })
+    
+}
+verificarTabla()

@@ -1161,3 +1161,383 @@ const seasonTreintayDos = () => {
     pon.ascenso();
     mur.ascenso();
 }
+const seasonTreintayTres = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 22, 2, 6, 61, 23);
+    //Barcelona
+    bar.season(30, 19, 4, 7, 74, 38);
+    //Real Betis
+    bet.season(30, 15, 7, 8, 47, 36);
+    //Zaragoza
+    zar.season(30, 14, 6, 10, 52, 42);
+    //Elche
+    elc.season(30, 13, 7, 10, 35, 31);
+    //Valencia
+    val.season(30, 16, 0, 14, 53, 47);
+    //Atlético
+    atl.season(30, 10, 9, 11, 37, 34);
+    //Athletic
+    ath.season(30, 12, 5, 13, 43, 40);
+    //Sevilla
+    sev.season(30, 9, 11, 10, 33, 38);
+    //Levante
+    lev.season(30, 10, 7, 13, 43, 56);
+    //Cordoba
+    cor.season(30, 10, 6, 14, 32, 38);
+    //Real Murcia
+    mur.season(30, 11, 4, 15, 41, 54);
+    //Espanyol
+    esp.season(30, 10, 5, 15, 34, 47);
+    //Real Oviedo
+    ovi.season(30, 10, 5, 15, 27, 42);
+    //Pontevedra
+    pon.season(30, 8, 5, 17, 30, 45);
+    //Valladolid
+    rva.season(30, 7, 5, 18, 27, 58);
+    //Ascenso y Descenso
+    pon.descenso();
+    rva.descenso();
+    dep.ascenso();
+    lpa.ascenso();
+}
+const seasonTreintayCuatro = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 21, 5, 4, 64, 18);
+    //Atlético
+    atl.season(30, 20, 3, 7, 58, 27);
+    //Zaragoza
+    zar.season(30, 19, 2, 9, 60, 37);
+    //Valencia
+    val.season(30, 17, 4, 9, 59, 37);
+    //Cordoba
+    cor.season(30, 16, 3, 11, 36, 34);
+    //Barcelona
+    bar.season(30, 14, 4, 12, 59, 41);
+    //Athletic
+    ath.season(30, 13, 6, 11, 36, 41);
+    //Elche
+    elc.season(30, 14, 3, 13, 38, 43);
+    //Las Palmas
+    lpa.season(30, 11, 7, 12, 36, 43);
+    //Sevilla
+    sev.season(30, 11, 4, 15, 38, 50);
+    //Espanyol
+    esp.season(30, 12, 1, 17, 37, 39);
+    //Real Betis
+    bet.season(30, 8, 7, 15, 33, 45);
+    //Real Murcia
+    mur.season(30, 5, 13, 12, 28, 49);
+    //Levante
+    lev.season(30, 8, 5, 17, 22, 54);
+    //Real Oviedo
+    ovi.season(30, 7, 6, 17, 22, 54);
+    //Deportivo
+    dep.season(30, 6, 3, 21, 18, 50);
+    //Ascenso y Descenso
+    ovi.descenso();
+    dep.descenso();
+    mur.descenso();
+    lev.descenso();
+    sab.ascenso();
+    cdm.ascenso();
+    pon.ascenso();
+    mal.ascenso();
+}
+const seasonTreintayCinco = () => {
+    //Atlético
+    atl.winner();
+    atl.season(30, 18, 8, 4, 54, 20);
+    //Real Madrid
+    rma.season(30, 19, 5, 6, 53, 30);
+    //Barcelona
+    bar.season(30, 16, 6, 8, 51, 27);
+    //Zaragoza
+    zar.season(30, 14, 8, 8, 47, 29);
+    //Athletic
+    ath.season(30, 14, 6, 10, 43, 32);
+    //Elche
+    elc.season(30, 12, 8, 10, 36, 37);
+    //Pontevedra
+    pon.season(30, 13, 5, 12, 31, 34);
+    //Sevilla
+    sev.season(30, 9, 9, 12, 27, 38);
+    //Valencia
+    val.season(30, 11, 5, 14, 40, 35);
+    //Las Palmas
+    lpa.season(30, 9, 8, 13, 32, 39);
+    //Cordoba
+    cor.season(30, 10, 5, 15, 34, 42);
+    //Espanyol
+    esp.season(30, 7, 10, 13, 31, 48);
+    //Málaga
+    cdm.season(30, 8, 8, 14, 24, 37);
+    //Sabadell
+    sab.season(30, 10, 3, 17, 30, 46);
+    //Mallorca
+    mal.season(30, 9, 5, 16, 40, 55);
+    //Real Betis
+    bet.season(30, 7, 9, 14, 36, 60);
+    //Ascenso y Descenso
+    mal.descenso();
+    bet.descenso();
+    cdm.descenso();
+    gra.ascenso();
+    dep.ascenso();
+    her.ascenso();
+}
+const seasonTreintaySeis = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 19, 9, 2, 58, 22);
+    //Barcelona
+    bar.season(30, 20, 2, 8, 58, 29);
+    //Espanyol
+    esp.season(30, 15, 7, 8, 50, 40);
+    //Atlético
+    atl.season(30, 14, 7, 9, 57, 30);
+    //Zaragoza
+    zar.season(30, 14, 6, 10, 51, 50);
+    //Valencia
+    val.season(30, 14, 4, 12, 58, 37);
+    //Athletic
+    ath.season(30, 11, 9, 10, 43, 36);
+    //Sabadell
+    sab.season(30, 11, 8, 11, 35, 38);
+    //Elche
+    elc.season(30, 9, 9, 12, 41, 50);
+    //Pontevedra
+    pon.season(30, 9, 9, 12, 28, 32);
+    //Las Palmas
+    lpa.season(30, 8, 10, 12, 32, 38);
+    //Cordoba
+    cor.season(30, 9, 8, 13, 28, 44);
+    //Sevilla
+    sev.season(30, 9, 7, 14, 28, 47);
+    //Granada
+    gra.season(30, 8, 7, 15, 32, 46);
+    //Hercules
+    her.season(30, 6, 8, 16, 32, 60);
+    //Deportivo
+    dep.season(30, 7, 4, 19, 25, 57);
+    //Ascenso y Descenso
+    her.descenso();
+    dep.descenso();
+    gra.descenso();
+    bet.ascenso();
+    rso.ascenso();
+    cdm.ascenso();
+}
+const seasonTreintaySiete = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 16, 10, 4, 55, 26);
+    //Barcelona
+    bar.season(30, 15, 9, 6, 48, 29);
+    //Las Palmas
+    lpa.season(30, 17, 4, 9, 56, 41);
+    //Valencia
+    val.season(30, 13, 8, 9, 52, 38);
+    //Zaragoza
+    zar.season(30, 13, 7, 10, 43, 34);
+    //Atlético
+    atl.season(30, 12, 9, 9, 38, 32);
+    //Athletic
+    ath.season(30, 11, 10, 9, 51, 28);
+    //Pontevedra
+    pon.season(30, 12, 7, 11, 36, 41);
+    //Espanyol
+    esp.season(30, 12, 5, 13, 48, 44);
+    //Malaga
+    cdm.season(30, 9, 9, 12, 29, 37);
+    //Elche
+    elc.season(30, 11, 5, 14, 30, 39);
+    //Sabadell
+    sab.season(30, 10, 6, 14, 34, 51);
+    //Cordoba
+    cor.season(30, 11, 3, 16, 35, 57);
+    //Real Sociedad
+    rso.season(30, 9, 6, 15, 38, 43);
+    //Real Betis
+    bet.season(30, 8, 4, 18, 30, 58);
+    //Sevilla
+    sev.season(30, 6, 8, 16, 31, 56);
+    //Ascenso y Descenso
+    bet.descenso();
+    sev.descenso();
+    dep.ascenso();
+    gra.ascenso();
+}
+const seasonTreintayOcho = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(30, 18, 11, 1, 46, 21);
+    //Las Palmas
+    lpa.season(30, 15, 8, 7, 45, 34);
+    //Barcelona
+    bar.season(30, 13, 10, 7, 40, 18);
+    //Sabadell
+    sab.season(30, 10, 12, 8, 33, 34);
+    //Valencia
+    val.season(30, 10, 11, 9, 36, 39);
+    //Atlético
+    atl.season(30, 10, 10, 10, 40, 37);
+    //Real Sociedad
+    rso.season(30, 10, 9, 11, 36, 33);
+    //Granada
+    gra.season(30, 11, 7, 12, 26, 38);
+    //Elche
+    elc.season(30, 7, 15, 8, 25, 23);
+    //Deportivo
+    dep.season(30, 11, 6, 13, 39, 44);
+    //Athletic
+    ath.season(30, 10, 8, 12, 42, 46);
+    //Pontevedra
+    pon.season(30, 7, 13, 10, 20, 23);
+    //Zaragoza
+    zar.season(30, 8, 10, 12, 36, 36);
+    //Málaga
+    cdm.season(30, 9, 7, 14, 37, 42);
+    //Espanyol
+    esp.season(30, 8, 8, 14, 29, 36);
+    //Cordoba
+    cor.season(30, 5, 11, 14, 31, 57);
+    //Ascenso y Descenso
+    cdm.descenso();
+    esp.descenso();
+    cor.descenso();
+    cel.ascenso();
+    sev.ascenso();
+    mal.ascenso();
+}
+const seasonTreintayNueve = () => {
+    //Atlético
+    atl.winner();
+    atl.season(30, 18, 6, 6, 53, 22);
+    //Athletic
+    ath.season(30, 17, 7, 6, 44, 20);
+    //Sevilla
+    sev.season(30, 14, 7, 9, 39, 32);
+    //Barcelona
+    bar.season(30, 13, 9, 8, 40, 31);
+    //Valencia
+    val.season(30, 15, 5, 10, 35, 23);
+    //Real Madrid
+    rma.season(30, 13, 9, 8, 50, 42);
+    //Real Sociedad
+    rso.season(30, 15, 3, 12, 47, 37);
+    //Real Zaragoza
+    zar.season(30, 13, 7, 10, 35, 39);
+    //Las Palmas
+    lpa.season(30, 10, 7, 13, 32, 40);
+    //Celta Vigo
+    cel.season(30, 10, 7, 13, 31, 39);
+    //Elche
+    elc.season(30, 8, 10, 12, 32, 44);
+    //Granada
+    gra.season(30, 8, 10, 12, 20, 31);
+    //Sabadell
+    sab.season(30, 10, 5, 15, 31, 37);
+    //Deportivo
+    dep.season(30, 8, 9, 13, 25, 32);
+    //Mallorca
+    mal.season(30, 7, 8, 15, 33, 52);
+    //Pontevedra
+    pon.season(30, 4, 5, 21, 20, 46);
+    //Ascenso y descenso
+    dep.descenso();
+    mal.descenso();
+    pon.descenso();
+    spo.ascenso();
+    esp.ascenso();
+    cdm.ascenso();
+}
+const seasonCuarenta = () => {
+    //Valencia
+    val.winner();
+    val.season(30, 18, 7, 5, 41, 19);
+    //Barcelona
+    bar.season(30, 19, 5, 6, 50, 22);
+    //Atlético Madrid
+    atl.season(30, 17, 8, 5, 51, 20);
+    //Real Madrid
+    rma.season(30, 17, 7, 6, 46, 24);
+    //Athletic
+    ath.season(30, 14, 7, 9, 40, 31);
+    //Celta Vigo
+    cel.season(30, 15, 5, 10, 37, 32);
+    //Sevilla
+    sev.season(30, 13, 6, 11, 34, 42);
+    //Real Sociedad
+    rso.season(30, 10, 9, 11, 23, 27);
+    //Malaga
+    cdm.season(30, 8, 12, 10, 27, 32);
+    //Granada
+    gra.season(30, 10, 8, 12, 33, 34);
+    //Espanyol
+    esp.season(30, 8, 9, 13, 18, 25);
+    //Sporting Gijón
+    spo.season(30, 10, 5, 15, 35, 44);
+    //Sabadell
+    sab.season(30, 8, 5, 17, 28, 49);
+    //Las Palmas
+    lpa.season(30, 5, 10, 15, 33, 42);
+    //Elche
+    elc.season(30, 4, 10, 16, 25, 46);
+    //Zaragoza
+    zar.season(30, 3, 9, 18, 22, 54);
+    //Ascenso y Descenso
+    elc.descenso();
+    zar.descenso();
+    dep.ascenso();
+    rbu.ascenso();
+    bet.ascenso();
+    cor.ascenso();
+}
+const seasonCuarentayUno = () => {
+    //Real Madrid
+    rma.winner();
+    rma.season(34, 19, 9, 6, 51, 27);
+    //Valencia
+    val.season(34, 19, 7, 8, 53, 30);
+    //Barcelona
+    bar.season(34, 17, 9, 8, 40, 26);
+    //Atlético
+    atl.season(34, 14, 11, 9, 45, 28);
+    //Las Palmas
+    lpa.season(34, 15, 8, 11, 40, 36);
+    //Granada
+    gra.season(34, 14, 8, 12, 40, 34);
+    //Málaga
+    mal.season(34, 9, 17, 8, 27, 31);
+    //Real Sociedad
+    rso.season(34, 14, 6, 14, 38, 36);
+    //Athletic
+    ath.season(34, 15, 4, 15, 39, 32);
+    //Celta Vigo
+    cel.season(34, 10, 13, 11, 37, 42);
+    //Sporting Gijón
+    spo.season(34, 12, 8, 14, 41, 37);
+    //Espanyol
+    esp.season(34, 12, 8, 14, 43, 43);
+    //Real Betis
+    bet.season(34, 10, 10, 14, 25, 45);
+    //Deportivo
+    dep.season(34, 11, 8, 15, 28, 38);
+    //Burgos
+    rbu.season(34, 11, 7, 16, 34, 42);
+    //Sevilla
+    sev.season(34, 9, 9, 16, 35, 45);
+    //Córdoba
+    cor.season(34, 6, 13, 15, 32, 51);
+    //Sabadell
+    sab.season(34, 7, 9, 18, 27, 52);
+    //Descenso y Ascenso
+    sev.descenso();
+    cor.descenso();
+    sab.descenso();
+    ovi.ascenso();
+    cas.ascenso();
+    zar.ascenso();
+}

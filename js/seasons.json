@@ -1,0 +1,102 @@
+{
+    "Country" : "España",
+    "Seasons" : [
+        {
+            "season" : "One",
+            "year" : 1929,
+            "winner" : "FC Barcelona",
+            "teams" : [
+                {
+                    "name" : "FC Barcelona",
+                    "games" : 18,
+                    "wins" : 11,
+                    "draws" : 3,
+                    "loses" : 4,
+                    "goalsFor" : 37,
+                    "goalsAgainst" : 23
+                },
+                {
+                    "name" : "Real Madrid",
+                    "games" : 18,
+                    "wins" : 11,
+                    "draws" : 1,
+                    "loses" : 6,
+                    "goalsFor" : 40,
+                    "goalsAgainst" : 27
+                },
+                {
+                    "name" : "Athletic Club",
+                    "games" : 18,
+                    "wins" : 8,
+                    "draws" : 4,
+                    "loses" : 6,
+                    "goalsFor" : 43,
+                    "goalsAgainst" : 33
+                },
+                {
+                    "name" : "Real Sociedad",
+                    "games" : 18,
+                    "wins" : 8,
+                    "draws" : 4,
+                    "loses" : 6,
+                    "goalsFor" : 46,
+                    "goalsAgainst" : 41
+                },
+                {
+                    "name" : "Arenas Club",
+                    "games" : 18,
+                    "wins" : 8,
+                    "draws" : 3,
+                    "loses" : 7,
+                    "goalsFor" : 32,
+                    "goalsAgainst" : 39
+                },
+                {
+                    "name" : "Atlético Madrid",
+                    "games" : 18,
+                    "wins" : 8,
+                    "draws" : 2,
+                    "loses" : 8,
+                    "goalsFor" : 43,
+                    "goalsAgainst" : 41
+                },
+                {
+                    "name" : "RCD Espanyol",
+                    "games" : 18,
+                    "wins" : 7,
+                    "draws" : 4,
+                    "loses" : 7,
+                    "goalsFor" : 32,
+                    "goalsAgainst" : 38
+                },
+                {
+                    "name" : "CE Europa",
+                    "games" : 18,
+                    "wins" : 6,
+                    "draws" : 4,
+                    "loses" : 8,
+                    "goalsFor" : 45,
+                    "goalsAgainst" : 49
+                },
+                {
+                    "name" : "Real Unión Club",
+                    "games" : 18,
+                    "wins" : 5,
+                    "draws" : 2,
+                    "loses" : 11,
+                    "goalsFor" : 40,
+                    "goalsAgainst" : 42
+                },
+                {
+                    "name" : "Racing Santander",
+                    "games" : 18,
+                    "wins" : 3,
+                    "draws" : 3,
+                    "loses" : 12,
+                    "goalsFor" : 25,
+                    "goalsAgainst" : 50
+                }
+            ]
+        }
+    ]
+}
